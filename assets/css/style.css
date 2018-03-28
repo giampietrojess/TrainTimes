@@ -1,4 +1,9 @@
 body {
     background-image: url("../images/extra1.jpg");
     width: 100%;
+    color: #fff;
+}
+.col.s12 {
+    background-color: rgb(255,255,255, 0.5);
+    padding: 20px;
 }
