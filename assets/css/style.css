@@ -2,21 +2,34 @@ body {
     background-image: url("../images/extra1.jpg");
     width: 100%;
     color: #000;
+    font-family: 'Economica', sans-serif;
 }
-.row {
+.row.main {
     margin-bottom: 10px !important;
+    border: 2px black solid;
 }
 .col.s12 {
-    background-color: rgb(255,255,255);
+    background-color:#eee;
     padding: 20px;
 }
+
 
 .input-field.col.s12 {
     margin: 5px !important;
     padding: 0px;
 }
 
-
+thead {
+    background-color: #fff3e0;
+    border: 2px black solid;
+}
+table {
+    border: 2px black solid;
+    background-color: #d7ccc8;
+}
 h1 {
-    margin: 0.8rem 0 1.68rem 0;
+    margin: 2.8rem 0 2.68rem 0;
+    font-family: 'Cinzel', serif;
+    font-size: 120px;
+    color: #d7ccc8;
 }
