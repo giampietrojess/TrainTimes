@@ -1,9 +1,24 @@
 body {
     background-image: url("../images/extra1.jpg");
     width: 100%;
-    color: #fff;
+    color: #000;
+}
+.row {
+    margin-bottom: 10px !important;
 }
 .col.s12 {
-    background-color: rgb(255,255,255, 0.5);
+    background-color: rgb(255,255,255);
     padding: 20px;
+}
+
+.input-field.col.s12 {
+    margin: 5px !important;
+    padding: 0px;
+}
+.input[type=text] {
+    border: 2px pink solid;
+}
+
+h1 {
+    margin: 0.8rem 0 1.68rem 0;
 }
