@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <!-- Materialize CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <!-- Materialize Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- My CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- Font Styles -->
@@ -28,7 +30,7 @@
             </div>
             
             <div class="row">
-                <div class="col s12">
+                <div class="col s12 center-align">
                     <table class="table centered responsive-table striped">
                         <thead>
                             <tr>
@@ -40,7 +42,9 @@
                             </tr>
                         </thead>
                         <tbody id="all-display"></tbody> 
+                        
                     </table>
+              
                 </div>
             </div>    
         
@@ -57,8 +61,8 @@
                             <div class="row">
                                 <div class="col s2"></div>
                                 <div class="input-field col s8">
-                                    <input id="train_name" type="text">
-                                    <label for="train_name">Train Name</label>
+                                    <input id="trainName" type="text">
+                                    <label for="trainName">Train Name</label>
                                 </div>
                                 <div class="col s2"></div>
                             </div>
@@ -76,8 +80,8 @@
                             <div class="row">
                                 <div class="col s2"></div>
                                 <div class="input-field col s8">
-                                    <input id="train_time" type="text">
-                                    <label for="train_time">First Train Time -- in military time</label>
+                                    <input id="trainTime" type="text">
+                                    <label for="trainTime">First Train Time -- in military time</label>
                                 </div>
                                 <div class="col s2"></div>
                             </div>
@@ -86,16 +90,21 @@
                             <div class="row">
                                 <div class="col s2"></div>
                                 <div class="input-field col s8">
-                                    <input id="frequency" type="text">
+                                    <input id="frequency" type="number">
                                     <label for="frequency">Frequency -- in minutes</label>
                                 </div>
                                 <div class="col s2"></div>
-                            </div>
-                
-                              
-                              
+                            </div> 
                               
                         </form>
+                        <div class="row">
+                            <div class="col s5"></div>
+                            <div class="col s2">
+                                <button class="btn waves-effect waves-light" id="addTrain" type="submit" name="action">Submit<i class="material-icons right">train</i></button>
+                            </div>
+                            <div class="col s5"></div>
+                        </div>
+
                     </div>
 
 
@@ -110,8 +119,12 @@
         
     <!-- jQuery first, then Materialize JS, then my JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- JQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Materialize Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Moment JS -->
+    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
     <!-- Firebase Link -->
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 
