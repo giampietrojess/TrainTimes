@@ -80,6 +80,11 @@ database.ref().on("child_added", function (childSnapshot) {
   });
 
 
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("#testTable").toggle();
+    });
+});
 
 
 
