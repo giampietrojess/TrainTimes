@@ -28,8 +28,45 @@ table {
     background-color: #d7ccc8;
 }
 h1 {
-    margin: 2.8rem 0 2.68rem 0;
+    margin: -0.2rem 0 -0.32rem 0;
     font-family: 'Cinzel', serif;
     font-size: 120px;
     color: #d7ccc8;
 }
+h3 {
+    background-color: #fff3e0;
+    border: 2px black solid;
+    font-size: 16px;
+    padding: 15px;
+}
+#testTable {
+    display: none;
+}
+button {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #6d4c41;
+}
+
+.btn {
+    background-color:#6d4c41;
+}
+
+.btn:hover {
+    background-color: #ffab91;
+}
+.btn:focus {
+    outline: none;
+    background-color: #8d6e63;
+}
+ /* label focus color */
+ .input-field input[type=text]:focus + label, .input-field input[type=number]:focus + label {
+    color: #000 !important;
+}
+/* label underline focus color */
+  .input-field input[type=text]:focus, .input-field input[type=number]:focus {
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
